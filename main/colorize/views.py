@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from .models import Image
 from .colorize import Colroizer
+from os.path import join
 
 
 def main(request):
